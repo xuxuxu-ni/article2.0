@@ -9,6 +9,12 @@ html, body {
     width: 100%;
     position: relative;
 }
+body{
+    background: url("../images/bg1.png");
+    background-size: cover;
+    background-position: center;
+    transition: background 1.5s ease;
+}
 a{color: #333333;text-decoration: none;}
 li{list-style: none;}
 .m0{ margin:0;}
