@@ -1,0 +1,25 @@
+.content-wrap .main-content .articleCon{
+    background: rgba(255, 255, 255, 0.9);
+    height: auto;
+}
+.content-wrap .articleList .authSpan{
+    position: absolute;
+    right: 0px;
+    top: 60px;
+}
+.dianzan span{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: #ff5e52;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.dianzan span i{
+    margin-top: 7px;
+}

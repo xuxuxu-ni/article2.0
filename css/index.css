@@ -1,0 +1,68 @@
+
+.content-wrap .articleThumbnail{
+    height: 100%;
+    overflow: hidden;
+}
+.content-wrap .articleAbstract{
+    margin-left: -12px;
+}
+.content-wrap .articleThumbnail img{
+    width: 100%;
+    height: 100%;
+}
+.content-wrap .articleAbstract p{
+    font-size: 14px;
+    color: #222222;
+    line-height: 30px;
+}
+.content-wrap .articleAbstract .ydqw{
+    color: #9ab26b;
+}
+.content-wrap .articleList .authSpan{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.content-wrap .authSpan .dz{
+    color: #ff5e52;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
