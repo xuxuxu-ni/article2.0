@@ -9,6 +9,8 @@
 .content-wrap .articleThumbnail img{
     width: 100%;
     height: 100%;
+    transform: rotate(0deg) scale(1,1);
+    transition: all 1.5s ease;
 }
 .content-wrap .articleAbstract p{
     font-size: 14px;
@@ -23,10 +25,12 @@
     right: 0px;
     bottom: 0px;
 }
-
 .content-wrap .authSpan .dz{
     color: #ff5e52;
     cursor: pointer;
+}
+.content-wrap .articleList:hover .articleThumbnail img{
+    transform: rotate(10deg) scale(1.5,1.5);
 }
 
 
