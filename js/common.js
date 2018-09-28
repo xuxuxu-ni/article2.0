@@ -8,4 +8,16 @@ $(function () {
         })
         i++;
     },8000)
+    $(".upDown i").click(function () {
+        let $content = $(this).parents(".upDown").siblings(".content")
+        $content.addClass("downList")
+
+        setTimeout(function () {
+            $("li", $content).css("position","unset")
+            $("li:first,li:last",$content).css("transform","rotate(0deg)")
+        },300)
+        $("ul", $content).css("margin-bottom","0")
+        $(this).parent().css("display","none")
+
+    })
 });

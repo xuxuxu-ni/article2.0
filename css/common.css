@@ -219,8 +219,19 @@ li{list-style: none;}
     left: 0px;
     width: 100%;
     color: #ffffff;
+    animation: downBtn 1.5s infinite;
 }
-
+.content-wrap .sidebar .upDown i{
+    cursor: pointer;
+    transform: scale(1,1);
+    transition: all 0.5s ease;
+}
+.content-wrap .sidebar .upDown i:hover{
+    transform: scale(1.5,1.5);
+}
+.downList{
+    animation: downList 0.6s ease;
+}
 
 
 /**** 底部信息 ****/
@@ -258,6 +269,76 @@ li{list-style: none;}
     100% {transform: rotate(30deg) scale(1.5,1.5);}
 }
 
+/**** 下拉按钮动画 ****/
+
+@keyframes downBtn
+{
+    0% {transform: translateY(-5px);}
+    50% {transform: translateY(30px);}
+    100% {transform: translateY(-5px);}
+}
+
+@-moz-keyframes downBtn
+{
+    0% {transform: translateY(-5px);}
+    20% {transform: translateY(10px);}
+    50% {transform: translateY(30px);}
+    80% {transform: translateY(10px);}
+    100% {transform: translateY(-5px);}
+}
+
+@-webkit-keyframes downBtn
+{
+    0% {transform: translateY(-5px);}
+    20% {transform: translateY(10px);}
+    50% {transform: translateY(30px);}
+    80% {transform: translateY(10px);}
+    100% {transform: translateY(-5px);}
+}
+
+@-o-keyframes downBtn
+{
+    0% {transform: translateY(-5px);}
+    20% {transform: translateY(10px);}
+    50% {transform: translateY(30px);}
+    80% {transform: translateY(10px);}
+    100% {transform: translateY(-5px);}
+}
+
+
+/**** 列表散开动画 ****/
+
+@keyframes downList
+{
+    0% {transform: translateY(-155px);}
+    50% {transform: translateY(30px);}
+    80% {transform: translateY(-30px);}
+    100% {transform: translateY(10px);}
+}
+
+@-moz-keyframes downList
+{
+    0% {transform: translateY(-155px);}
+    50% {transform: translateY(30px);}
+    80% {transform: translateY(-30px);}
+    100% {transform: translateY(10px);}
+}
+
+@-webkit-keyframes downList
+{
+    0% {transform: translateY(-155px);}
+    50% {transform: translateY(30px);}
+    80% {transform: translateY(-30px);}
+    100% {transform: translateY(10px);}
+}
+
+@-o-keyframes downList
+{
+    0% {transform: translateY(-155px);}
+    50% {transform: translateY(30px);}
+    80% {transform: translateY(-30px);}
+    100% {transform: translateY(10px);}
+}
 
 
 
