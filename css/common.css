@@ -11,7 +11,7 @@ html, body {
     overflow-y: auto;
 }
 body{
-    background: url("../images/bg1.jpg");
+    background: url("../images/bg42.jpg");
     background-size: cover;
     transition: background 1.5s ease;
 }
