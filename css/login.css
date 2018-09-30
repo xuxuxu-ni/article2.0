@@ -33,9 +33,9 @@
     width: 640px;
     height: 280px;
     overflow: hidden;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
     margin-top: 230px;
-    box-shadow: 1px 10px 30px -10px rgba(0,0,0,0.5);
+    box-shadow: 1px 10px 30px -10px rgba(0,0,0,0.8);
 }
 
 .cont_forms {
@@ -82,13 +82,13 @@
     position: absolute;
     width: 950px;
     top:-80px;
-    left: -116px;
+    left: -150px;
 }
 
 .cont_img_back_grey > img {
     width: 100%;
     -webkit-filter: grayscale(100%);     filter: grayscale(100%);
-    opacity: 0.2;
+    opacity: 0.5;
     animation-name: animar_fondo;
     animation-duration: 20s;
     animation-timing-function: linear;
@@ -101,12 +101,12 @@
     position: absolute;
     width: 950px;
     top:-80px;
-    left: -116px;
+    left: -150px;
 }
 
 .cont_img_back_ > img {
     width: 100%;
-    opacity: 0.3;
+    opacity: 1;
     animation-name: animar_fondo;
     animation-duration: 20s;
     animation-timing-function: linear;
@@ -125,7 +125,7 @@
 
 .cont_forms_active_sign_up > .cont_img_back_ {
     top:0px;
-    left: -435px;
+    left: -515px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
