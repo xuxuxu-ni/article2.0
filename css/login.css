@@ -179,7 +179,7 @@
     width: 50%;
 }
 
-.cont_ba_opcitiy > h2 {
+.cont_ba_opcitiy > h2, h3 {
     font-weight: 400;
     color: #fff;
 }
@@ -317,7 +317,7 @@
 .cont_form_login > input {
     padding: 15px 5px;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 260px;
     border: none;
     text-align: left;
@@ -330,9 +330,15 @@
     color: #757575;
 }
 .cont_form_login > a,.cont_form_sign_up > a  {
-    color: #757575;
+    color: #ffffff;
     position: relative;
     float: left;
     margin: 10px;
     margin-left: 30px;
+}
+.subBtn{
+    margin-top: 70px;
+}
+.regBtn{
+    margin-top: 40px;
 }
